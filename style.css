@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.tartalom div{
+    height: 200px;
+    aspect-ratio: 1/1;
+    border: 25px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.tartalom div p {
+    height: 100%;
+    width:  100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8em;
+    font-weight: bolder;
+    user-select: none;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
